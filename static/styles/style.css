@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+}
+
+/* header */
+#header {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 140px 23px 33px;
+    align-items: center;
+}
+
+.header__logo {
+    background: linear-gradient(98.75deg, rgb(94, 76, 179), rgb(157, 97, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.header__nav ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 27px;
+}
+
+.header__nav-link {
+    color: rgb(94, 76, 179);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.header__contacts {
+    display: flex;
+    column-gap: 14px;
+}
+
+.header__social-link {
+    align-self: flex-start;
+    padding-top: 5px;
+}
+
+.header__phone-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.header__phone-number {
+    color: rgb(94, 76, 179);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.header__work-time {
+    color: rgb(94, 76, 179);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.header__requestcall-btn {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 800;
+    border-radius: 5px;
+    background: rgb(157, 97, 255);
+    border: none;
+    width: 177px;
+    height: 60px;
+}
+
+/* секция hero */
+#hero {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-image: url(/static/images/Group\ 31.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    /* height: 100vh; */
+    padding: 67px 0 80px 140px;
+    background-position-y: -100px;
+}
+
+.hero__title {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    color: rgb(94, 76, 179);
+    width: 50vw;
+}
+
+.text__decoration {
+    color: rgb(157, 97, 255)
+}
+
+.hero__title-text {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: rgb(94, 76, 179);
+    width: 50vw;
+    margin-top: 33px;
+}
+
+.hero__price-btn {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 800;
+    border-radius: 5px;
+    background: rgb(157, 97, 255);
+    border: none;
+    width: 275px;
+    height: 60px;
+    margin-top: 116px;
+}
+
+.hero__price-text {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 300;
+    color: rgb(94, 76, 179);
+    width: 35vw;
+    margin-top: 20px;
+}
+
+.hero__background-element {
+    width: 24px;
+    position: absolute;
+    top: 583px;
+    left: 708px;
+}
