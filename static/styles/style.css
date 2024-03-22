@@ -147,3 +147,91 @@
     top: 583px;
     left: 708px;
 }
+
+/* вторая секция */
+
+.info__block {
+    margin-top: 190px;
+
+    padding: 0px 140px 150px 140px;
+}
+
+.info__block-title {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 44px;
+    color: rgb(94, 76, 179)
+}
+
+.info__block-wrap {
+    display: flex;
+    gap: 54px 20px;
+    margin-top: 54px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.info__block-card {
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+    padding: 2px 0 39px 15px;
+    width: calc(100% / 3 - 20px);
+
+}
+
+.info__block-card-number {
+    color: rgb(183, 152, 191);
+    font-family: Montserrat;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 78px;
+}
+
+.info__block-card-title {
+    position: relative;
+    color: rgb(68, 111, 179);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+}
+
+.info__block-card-title::before {
+    content: "";
+    height: 2px;
+    width: 50%;
+    background-color: rgb(68, 111, 179);
+    position: absolute;
+    left: 0;
+    bottom: -9px;
+}
+
+.info__block-card-desc {
+    color: rgb(94, 76, 179);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    margin-top: 18px;
+}
+
+.info__block-btn-wrap {
+    margin-top: 51px;
+    display: flex;
+    justify-content: center;
+}
+
+.info__block-btn {
+    border-radius: 5px;
+    background: rgb(157, 97, 255);
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 15px;
+    padding: 22px 78px;
+    border: none;
+}
