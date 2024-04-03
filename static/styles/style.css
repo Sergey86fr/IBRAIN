@@ -9,7 +9,6 @@
 
 .btn {
     color: rgb(255, 255, 255);
-    font-family: Montserrat;
     font-size: 12px;
     font-weight: 800;
     border-radius: 5px;
@@ -18,7 +17,6 @@
 }
 
 .section__title {
-    font-family: Montserrat;
     font-size: 36px;
     font-weight: 700;
     line-height: 44px;
@@ -39,7 +37,6 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
-    font-family: Montserrat;
     font-size: 48px;
     font-weight: 800;
 }
@@ -53,7 +50,6 @@
 
 .header__nav-link {
     color: rgb(94, 76, 179);
-    font-family: Montserrat;
     font-size: 14px;
     font-weight: 700;
 }
@@ -76,14 +72,12 @@
 
 .header__phone-number {
     color: rgb(94, 76, 179);
-    font-family: Montserrat;
     font-size: 24px;
     font-weight: 800;
 }
 
 .header__work-time {
     color: rgb(94, 76, 179);
-    font-family: Montserrat;
     font-size: 12px;
     font-weight: 700;
 }
@@ -117,7 +111,6 @@
 }
 
 .hero__title-text {
-    font-family: Montserrat;
     font-size: 16px;
     font-weight: 700;
     line-height: 20px;
@@ -133,7 +126,6 @@
 }
 
 .hero__price-text {
-    font-family: Montserrat;
     font-size: 12px;
     font-weight: 300;
     color: rgb(94, 76, 179);
@@ -187,7 +179,6 @@
 .info__block-card-title {
     position: relative;
     color: rgb(68, 111, 179);
-    font-family: Montserrat;
     font-size: 14px;
     font-weight: 700;
     line-height: 17px;
@@ -237,11 +228,7 @@
     display: flex;
     align-items: center;
     column-gap: 71px;
-
-
 }
-
-.excellents__inner-desc {}
 
 .excellents__inner-title {
     color: rgb(157, 97, 255);
@@ -250,11 +237,11 @@
     font-weight: 700;
     line-height: 22px;
     margin-bottom: 17px;
-   
+
 }
 
 .excellents__menu {
-    position: relative;   
+    position: relative;
 }
 
 .excellents__menu-item {
@@ -265,6 +252,7 @@
     line-height: 17px;
     padding-left: 17px;
     padding-bottom: 8px;
+    position: relative;
     /* list-style: disc; */
 }
 
@@ -275,6 +263,10 @@
 
 .excellents__inner-title {}
 
+.excellents__menu {
+    position: relative;
+}
+
 
 .excellents__menu-item::before {
     content: "";
@@ -284,6 +276,7 @@
     background-color: rgb(94, 76, 179);
     border-radius: 50%;
     left: 0;
+    bottom: 10px;
 }
 
 .excellents__price-btn-wrap {
@@ -295,4 +288,100 @@
 .excellents__price-btn {
     width: 275px;
     height: 60px;
+}
+
+/* 4 секция */
+
+.our-awards {
+    border-radius: 10px;
+    background: rgb(240, 213, 119);
+    margin: 0 140px;
+    padding: 26px 20px;
+}
+
+.our-awards__wrapper {
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    column-gap: 94px;
+    padding: 0 96px 0 14px;
+
+
+
+}
+
+.our-awards__inner {
+    position: relative;
+}
+
+.our-awards__inner-title {
+    color: rgb(159, 159, 159);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    text-align: center;
+    margin-top: 27px;
+
+}
+
+.our-awards__inner-text {
+    color: rgb(42, 35, 103);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    text-align: center;
+    margin: 6px 0 14px 0;
+    width: 90%;
+}
+
+.our-awards__inner-img {
+    width: 100%;
+    margin-bottom: 19px;
+}
+
+.awards-img {
+    position: absolute;
+    top: 13px;
+    height: 100%;
+}
+
+/* 5 секция */
+.research-business {
+    padding: 150px 78px 119px 140px;
+    background: rgb(255, 255, 255);
+}
+
+.research-business__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+}
+
+.research-business__desc-title {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 44px;
+    color: rgb(94, 76, 179);
+    margin-bottom: 66px;
+}
+
+.research-business__desc-text {
+    color: rgb(94, 76, 179);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+
+.research-business__img {
+    margin-top: 10px;
+}
+
+/* 6 секция */
+
+
+/* 7 секция */
+.our-office__img {
+    width: 100%;
 }
