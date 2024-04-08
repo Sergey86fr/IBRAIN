@@ -1,0 +1,64 @@
+@media (max-width: 768px) {
+
+    #header {
+        padding: 0;
+        /* z-index: 1; */
+    }
+    .header__burger-btn {
+        display: block;
+        
+    
+    }
+
+    
+    
+    .header__logo {
+        display: none;
+    }
+
+    .header__nav {
+       position: absolute;
+     
+       left: 1px;
+       top: -100%;
+       width: 100vh;
+       height: 1059px;
+       background: rgb(255, 255, 255);
+    padding-top: 150px;
+    z-index: 1;
+    }
+    .header__nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 27px;
+    }
+
+    
+    .header__get-in-touch-link {
+display: block;
+margin-top: 60px;
+margin-bottom: 32px;
+    }
+
+    .header__our-contacts-text {
+display: block;
+    }
+
+    .header__phone-wrap {
+        display: none;
+    }
+    .header__social-link {
+        display: none;
+    }
+
+    .header__logo-img {
+        display: block;
+    }
+    .header__requestcall-btn {
+        display: none;
+    }
+    .header__requestcall-btn-small{
+display: block;
+    }
+}

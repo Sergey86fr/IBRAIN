@@ -15,14 +15,24 @@
 <body>
     <!-- header -->
     <header id="header">
+        <button class="header__burger-btn">
+            <span class="burger__btn-line"></span>
+            <span class="burger__btn-line"></span>
+            <span class="burger__btn-line"></span>
+        </button>
         <h1 class="header__logo">IBRAIN</h1>
+        <img class="header__logo-img" src="./static/icons/лого.svg" alt="logo">
         <nav class="header__nav">
-            <ul>
-                <li><a class="header__nav-link" href="#">Главная</a></li>
-                <li><a class="header__nav-link" href="#">Цены</a></li>
-                <li><a class="header__nav-link" href="#">Кейсы и отзывы</a></li>
-                <li><a class="header__nav-link" href="#">Контакты</a></li>
+            <ul class="header__nav-menu">
+                <li class="header__nav-item"><a class="header__nav-link" href="#">Главная</a></li>
+                <li class="header__nav-item"><a class="header__nav-link" href="#">Цены</a></li>
+                <li class="header__nav-item"><a class="header__nav-link" href="#">Кейсы и отзывы</a></li>
+                <li class="header__nav-item"><a class="header__nav-link" href="#">Контакты</a></li>
+                <li class="header__nav-item"><a class="header__get-in-touch-link" href="info@ibrain.ru">info@ibrain.ru</a></li>
+                <li class="header__nav-item"><a class="header__our-contacts-text" href="tel:+996 (552) 700 577">+996 (552) 700 577<br>пн-пт 10:00–19:00</a></li>
             </ul>
+            
+
         </nav>
         <div class="header__contacts">
             <img class="header__social-link" src="/static/icons/telegram (3) 1.svg" alt="icon telegram">
@@ -33,6 +43,7 @@
                 <span class="header__work-time">Ежедневно с 09:00 до 18:00</span>
             </div>
             <button class="header__requestcall-btn btn">Заказать звонок</button>
+            <button class="header__requestcall-btn-small btn"><img class="header__requestcall-btn-img" src="./static/icons/call.svg" alt="call"></button>
         </div>
     </header>
 
@@ -207,8 +218,182 @@
             </div>
 
         </section>
-<!-- 6секция -->
-        <section id="stages-research" class="stages-research"></section>
+        <!-- 6секция -->
+        <section id="stages" class="stages">
+            <h3 class="stages__title">Этапы</h3>
+            <div class="stages__wrapper">
+
+                <div class="stages__list-wrapper">
+                    <ul class="stages__list">
+                        <li class="stages__item"><a class="stages__link" href="#stages__card-title1">01. Маркетинговый
+                                анализ бизнеса</a>
+                        </li>
+                        <li class="stages__item"><a class="stages__link" href="#stages__card-title2">02. Привлекательный
+                                дизайн</a></li>
+                        <li class="stages__item"><a class="stages__link" href="#stages__card-title3">03.
+                                Профессиональная верстка</a></li>
+                        <li class="stages__item"><a class="stages__link" href="#stages__card-title4">04. «Посадка» на
+                                CMS</a></li>
+                        <li class="stages__item"><a class="stages__link" href="#stages__card-title5">05. Тестирование и
+                                доработка</a></li>
+                        <li class="stages__item"><a class="stages__link" href="#stages__card-title6">06. Запуск
+                                сайта</a></li>
+                    </ul>
+                </div>
+                <div class="stages__card-wrapper">
+                    <div class="stages__card">
+                        <div class="stages__card-header">
+                            <div class="stages__card-number-wrap">
+                                <span class="stages__card-number">1</span>
+                            </div>
+                            <div class="stages__card-title-wrap">
+                                <h3 class="stages__card-title" id="stages__card-title1">Маркетинговый анализ бизнеса
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="stage__card-line"></div>
+                        <div class="stages__card-desc-wrapper">
+                            <p class="stages__card-desc-text">На предварительном этапе мы выясняем специфику вашего
+                                бизнеса, товаров. Отмечаем ваши преимущества и уникальные предложения, изучаем ожидания
+                                и
+                                потребности целевой аудитории, рассматриваем ближайшее конкурентное окружение.</p>
+                            <p class="stages__card-desc-text">На основании полученных данных мы разрабатываем
+                                прототип
+                                интернет-магазина, пишем техническое ТЗ для специалистов, готовим рекомендации по
+                                текстовому
+                                наполнению с учетом требований SEO, разрабатываем план по внешней и внутренней
+                                оптимизации
+                                сайта. Также мы создаем набор готовых элементов для пользовательского интерфейса.</p>
+                        </div>
+                        <div class="stages__card-img-wrapper">
+                            <img class="stages__card-img" src="./static/images/маркетинг.анализ.png" alt="stages-img">
+                        </div>
+                    </div>
+                    <div class="stages__card">
+                        <div class="stages__card-header">
+                            <div class="stages__card-number-wrap">
+                                <span class="stages__card-number">2</span>
+                            </div>
+                            <div class="stages__card-title-wrap">
+                                <h3 class="stages__card-title" id="stages__card-title2">Привлекательный дизайн</h3>
+                            </div>
+                        </div>
+                        <div class="stage__card-line"></div>
+                        <div class="stages__card-desc-wrapper">
+                            <p class="stages__card-desc-text">Интерфейс сайта будет соответствовать современным
+                                требованиям и отвечать ожиданиям целевой аудитории. Опытные специалисты Millenium
+                                создадут
+                                UX-дизайн, отталкиваясь от данных анализа пользовательского поведения, что позволит в
+                                несколько раз увеличить конверсию.</p>
+                            <p class="stages__card-desc-text">Мы подберем оптимальные цветовые сочетания (основной,
+                                дополнительные, акцентные цвета), уделим внимание четкости графики, наглядности
+                                интерфейса,
+                                понятной и лаконичной визуализации.</p>
+                        </div>
+                        <div class="stages__card-img-wrapper">
+                            <img class="stages__card-img" src="./static/images/привлекательный дизайн.png"
+                                alt="stages-img">
+                        </div>
+                    </div>
+                    <div class="stages__card">
+                        <div class="stages__card-header">
+                            <div class="stages__card-number-wrap">
+                                <span class="stages__card-number">3</span>
+                            </div>
+                            <div class="stages__card-title-wrap">
+                                <h3 class="stages__card-title" id="stages__card-title3">Профессиональная верстка</h3>
+                            </div>
+                        </div>
+                        <div class="stage__card-line"></div>
+                        <div class="stages__card-desc-wrapper">
+                            <p class="stages__card-desc-text">Мы производим верстку по стандарту Pixel Perfect,
+                                который
+                                предполагает точное соответствие сверстанных страниц дизайн-макету. Наши специалисты
+                                напишут
+                                чистый код с двухфакторной проверкой, позволяющий обеспечить высокую скорость загрузки
+                                на
+                                любых браузерах и электронных устройствах (десктопных и мобильных). </p>
+                            <p class="stages__card-desc-text">
+                                Профессиональная адаптивная верстка является важным условием бесперебойной надежной
+                                работы
+                                сайта на протяжении длительного времени. </p>
+                        </div>
+                        <div class="stages__card-img-wrapper">
+                            <img class="stages__card-img" src="./static/images/верстка.png" alt="stages-img">
+                        </div>
+                    </div>
+                    <div class="stages__card">
+                        <div class="stages__card-header">
+                            <div class="stages__card-number-wrap">
+                                <span class="stages__card-number">4</span>
+                            </div>
+                            <div class="stages__card-title-wrap">
+                                <h3 class="stages__card-title" id="stages__card-title4">«Посадка» на CMS</h3>
+                            </div>
+                        </div>
+                        <div class="stage__card-line"></div>
+                        <div class="stages__card-desc-wrapper">
+                            <p class="stages__card-desc-text">Невозможно представить интернет-магазин без системы
+                                управления сайтом. Специалисты Millenium выполнят посадку готовой верстки вашего
+                                магазина на
+                                CMS №1 в странах СНГ - 1с Битрикс.</p>
+                            <p class="stages__card-desc-text">Благодаря CMS, вы просто заходите в административную
+                                панель, и, при помощи понятных полей, легко управляете содержимым — редактируете
+                                новости,
+                                вносите коррективы в товары, добавляет фото и видеоконтент, модерируете и выполняете
+                                множество других действий, которые без CMS были бы сущим кошмаром.</p>
+                        </div>
+                        <div class="stages__card-img-wrapper">
+                            <img class="stages__card-img" src="./static/images/cms.png" alt="stages-img">
+                        </div>
+                    </div>
+                    <div class="stages__card">
+                        <div class="stages__card-header">
+                            <div class="stages__card-number-wrap">
+                                <span class="stages__card-number">5</span>
+                            </div>
+                            <div class="stages__card-title-wrap">
+                                <h3 class="stages__card-title" id="stages__card-title5">Тестирование и доработка</h3>
+                            </div>
+                        </div>
+                        <div class="stage__card-line"></div>
+                        <div class="stages__card-desc-wrapper">
+                            <p class="stages__card-desc-text">Чтобы избежать проблем во время использования сайта, на
+                                данном этапе мы отрабатываем все возможные сценарии взаимодействия пользователей с
+                                сайтом.
+                                Это позволяет вовремя выявить ошибки и устранить их. Мы тестируем usability и
+                                безопасность
+                                сайта, проверяем скорость загрузки страниц, работу форм обратной связи и интерактивных
+                                элементов, отображение страниц на разных устройствах. Это позволяет на 100%
+                                гарантировать
+                                функциональность ресурса.</p>
+                        </div>
+                    </div>
+                    <div class="stages__card">
+                        <div class="stages__card-header">
+                            <div class="stages__card-number-wrap">
+                                <span class="stages__card-number">6</span>
+                            </div>
+                            <div class="stages__card-title-wrap">
+                                <h3 class="stages__card-title" id="stages__card-title6">Запуск сайта</h3>
+                            </div>
+                        </div>
+                        <div class="stage__card-line"></div>
+                        <div class="stages__card-desc-wrapper">
+                            <p class="stages__card-desc-text">Когда все проверено и выполнены все нужные доработки,
+                                остается лишь выполнить грамотный запуск сайта. Наши специалисты сверяют всё по
+                                чек-листу,
+                                чтобы избежать неприятностей и получить на выходе идеальный интернет-магазин с высокой
+                                конверсией. Сайт от профессионалов Millenium позволит вам легко привлекать новых
+                                клиентов и
+                                станет достойным лицом вашей компании в интернете.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
 
         <!-- 7 секция -->
         <section id="our-office" class="our-office">
@@ -216,6 +401,78 @@
                 <img class="our-office__img" src="./static/images/чб фото.png" alt="офис">
             </div>
         </section>
+
+        <!-- 8 секция -->
+        <section id="form-order" class="form-order">
+            <div class="form-order__wrapper">
+                <div class="form-order__desc-wrapper">
+                    <h3 class="form-order__desc-title">Компания IBRAIN</h3>
+                    <p class="form-order__desc-text">Это дорогая и долгая разработка интернет-магазинов на 1С
+                        Битрикс! Нельзя сделать <b>качественный</b> цифровой продукт за дешево и быстро!</p>
+                    <p class="form-order__desc-text">Мы создадим интернет-магазин с нуля. Заказчику не придется искать
+                        других IT-специалистов для дальнейшей
+                        настройки и запуска сайта. Мы настроим сервисы, интегрируем модули для онлайн-торговли,
+                        добавим контент и товары. Работы по созданию интернет-магазина с нуля ведутся только после
+                        анализа ниши бизнеса.</p>
+                </div>
+                <div class="form__order-container">
+                    <form class="form__order" action="./index.html">
+                        <h3 class="form__order-title">Звоните нам по телефону
+                            <a class="form__order-tel" href="tel:+995 (552) 700 577"> +995 (552) 700 577</a>
+                        </h3>
+                        <span class="form__order-desc">или закажите обратный звонок чтобы получить ответы на все
+                            интересующие вас вопросы.</span>
+                        <input class="form__order-name" type="text" placeholder="Введите ваше имя" required>
+                        <input class="form-order-tel" type="tel" placeholder="+7(999) 999 99 99" required>
+                        <button class="form-order-btn">Перезвоните мне</button>
+                        <div class="form__checkbox-wrapper">
+                            <label for="form__checkbox"></label>
+                            <input class="form__checkbox" id="form__checkbox" type="checkbox"
+                                placeholder="Согласие на обработку персональных данных">
+                            <span class="form__checkbox-desc"><span class="form__checkbox-desc-dark">Согласен/а
+                                    на</span> обработку персональных данных</span>
+                        </div>
+
+                    </form>
+                </div>
+                <div class="form__background-img-wrapper">
+                    <img class="form__background-img img-square" src="./static/images/квадрат.png" alt="img">
+                    <img class="form__background-img img-hand" src="./static/images/класс.png" alt="img">
+                    <img class="form__background-img img-circle" src="./static/images/круг.png" alt="img">
+                    <img class="form__background-img img-cube" src="./static/images/куб.png" alt="img">
+                </div>
+            </div>
+        </section>
+
+        <!-- футер  -->
+        <footer id="footer" class="footer">
+            <div class="footer__get-in-touch-wrapper">
+                <h3 class="footer__get-in-touch-title">Напишите нам</h3>
+                <div class="footer__get-in-touch-inner">
+                    <a class="footer__get-in-touch-link" href="info@ibrain.ru">info@ibrain.ru</a>
+                    <button class="footer__get-in-touch-btn">Заказать звонок</button>
+                </div>
+            </div>
+            <div class="footer__line"></div>
+            <div class="footer__info-wrapper">
+                <div class="info__our-contacts-wrapper">
+                    <p class="info__our-contacts-text">Москва,ул. Профсоюзная 76, БЦ «ГАЛЕРЕЯ 76» 2 этаж</p>
+                    <p class="info__our-contacts-text">+996 (552) 700 577 пн-пт 10:00–19:00</p>
+                </div>
+                <div class="info__items-wrapper">
+                    <p class="info__item-logo">IBRAIN</p>
+                    <p class="info__item">&copy; 2018–2023 | IBRAIN - создание интернет-магазинов на 1С Битрикс</p>
+                    <a class="info__item-link" href="#">Политика конфиденциальности</a>
+                </div>
+                <div class="info__socials-wrapper">
+                    <a class="info__social-link" href="https://telegram.org"><img class="info__social-icon" src="./static/icons/telegram footer.svg" alt="icon"></a>
+                    <a class="info__social-link" href="https://www.whatsapp.com"><img class="info__social-icon" src="./static/icons/whatsapp footer.svg" alt="icon"></a>
+                    
+                    
+                </div>
+            </div>
+
+        </footer>
 
 
 
