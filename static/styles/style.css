@@ -7,7 +7,7 @@
     font-family: Montserrat, sans-serif;
 }
 
-.btn {
+.btn-main {
     color: rgb(255, 255, 255);
     font-size: 12px;
     font-weight: 800;
@@ -30,43 +30,79 @@
     padding: 32px 140px 23px 33px;
     align-items: center;
 }
-.header__burger-btn {
+/* .header__burger-btn {
     display: none;
     position: relative;
     width: 40px;
     height: 30px;
     border: none;
     background: rgb(255, 255, 255);
+} */
+
+.burger__btn  {
+    position: relative;
+    width: 40px;
+    /* height: 30px; */
+    border: none;
+    background: rgb(255, 255, 255); 
+    cursor: pointer;
 }
 
-.burger__btn-line {
+#burger__btn {
+    display: none;
+}
+
+.burger__btn {
+    display: none;
+}
+.burger__btn-line:nth-of-type(1) {
     position: absolute;
     width: 70%;
     height: 4px;
     border-radius: 1px;
     background-color: rgb(157, 97, 255);
-    left: 0;
+    top: 50%;
+    transition: 0.5s;  
 }
-.burger__btn-line:nth-child(2) {
+
+/* .burger__btn-line:nth-child(2) { */
+
+    .burger__btn-line:nth-of-type(2) {
     position: absolute;
     width: 100%;
     height: 4px;
     border-radius: 1px;
     background-color: rgb(157, 97, 255);
     left: 0;
-    transform: translateY(-11px) ;
+    top: 0;
+    transform: translateY(-8px) ;
 }
-.burger__btn-line:nth-child(3) {
+/* .burger__btn-line:nth-child(3) */
+.burger__btn-line:nth-of-type(3) {
     position: absolute;
     width: 30%;
     height: 4px;
     border-radius: 1px;
     background-color: rgb(157, 97, 255);
-    left: 0;
-    transform: translateY(11px);
+    /* left: 0; */
+    /* top: 100%; */
+    transform: translateY(8px);
 }
 
-
+.burger__btn input:checked~span:nth-of-type(1) {
+    opacity: 0;
+}
+.burger__btn input:checked ~ span:nth-of-type(2) {
+    transform: rotate(45deg);
+    top: 0px;
+    left: -5px;
+}
+.burger__btn input:checked ~ span:nth-of-type(3) {
+    transform: rotate(-45deg);
+    top: 0px;
+    left: -5px;
+    width: 100%;
+}
 
 .header__logo {
     background: linear-gradient(98.75deg, rgb(94, 76, 179), rgb(157, 97, 255));
@@ -95,14 +131,14 @@
 }
 
 .header__get-in-touch-link {
-    display: none;
+  
     color: rgb(94, 76, 179);
     font-size: 14px;
     font-weight: 700;
 }
 
 .header__our-contacts-text {
-    display: none;
+ 
     color: rgb(94, 76, 179);
     font-size: 14px;
     font-weight: 700; 
@@ -353,6 +389,9 @@
 }
 
 /* 4 секция */
+#carouselExampleIndicators {
+    display: none;
+}
 
 .our-awards {
     border-radius: 10px;
@@ -828,6 +867,9 @@
     line-height: 59px;
     letter-spacing: 7%;
     margin-top: 107px;
+}
+.info__item-logo-img {
+    display: none;
 }
 
 .info__item {
