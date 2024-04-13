@@ -477,6 +477,7 @@
 
 .research-business__img {
     margin-top: 10px;
+    width: 100%;
 }
 
 /* 6 секция */
@@ -609,6 +610,10 @@
     line-height: 22px;
     margin-bottom: 30px;
 
+}
+
+.stages__card-img {
+    width: 100%;
 }
 
 /* .stages__card-number::before {
