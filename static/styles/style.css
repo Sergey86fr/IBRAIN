@@ -192,7 +192,7 @@
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    background-image: url(./static/images/Group\ 31.png);
+    background-image: url(/static/images/Group\ 31.png);
     background-repeat: no-repeat;
     background-position: right;
     /* height: 100vh; */
