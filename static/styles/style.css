@@ -182,15 +182,14 @@
 }
 
 /* секция hero */
-#hero {
+.hero {
   position: relative;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  background-image: url(https://sergey86fr.github.io/static/images/Group 31.png);
+  background-image: url("/static/images/Group 31.png");
   background-repeat: no-repeat;
   background-position: right;
-  /* height: 100vh; */
   padding: 67px 0 80px 140px;
   background-position-y: -100px;
 }
