@@ -1,0 +1,112 @@
+.headerTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+}
+
+.headerTopInfo {
+  display: flex;
+  align-items: center;
+}
+
+.headerLogo {
+  background: linear-gradient(
+    98.75deg,
+    rgb(255, 255, 255),
+    rgb(247, 247, 247),
+    rgb(255, 255, 255)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 59px;
+}
+
+.headerLocationWrapper {
+  position: relative;
+  margin: 0 30px;
+}
+
+.headerLocation {
+  width: 100%;
+  border-radius: 10px;
+  width: 30vw;
+  background: rgb(80, 75, 74);
+  color: rgb(207, 207, 207);
+  font-size: 18px;
+  font-weight: 400;
+  padding: 17px 48px;
+  border: none;
+}
+
+.headerLocationLeftIcon {
+  position: absolute;
+  left: 17px;
+  top: 17px;
+}
+
+.headerLocationRightIcon {
+  position: absolute;
+  right: 17px;
+  top: 17px;
+}
+
+.headerCall {
+  display: flex;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.secondaryText {
+  display: block;
+  font-size: 12px;
+  color: rgb(207, 207, 207);
+}
+
+.headerCallIconWrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+  background: linear-gradient(
+    132.71deg,
+    rgb(97, 137, 103) 5.243%,
+    rgb(114, 164, 121) 92.995%
+  );
+}
+
+.headerBasket {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 600;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  background: linear-gradient(
+    132.71deg,
+    rgb(97, 137, 103) 4.924%,
+    rgb(114, 164, 121) 95.342%
+  );
+  border: none;
+  cursor: pointer;
+}
+
+
+.line {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    height: 80%;
+    margin: 0 10px;
+  }
+  
